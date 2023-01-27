@@ -1,0 +1,300 @@
+body {
+    background-color: #FAFAFA;
+    min-width: 100vh;
+}
+
+.main {
+    display: flex;
+}
+
+ .main-img img {
+    top: 72px;
+    left: 166px;
+    width: 576px;
+    height: 576px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 31px #0000000A;
+    border: 20px solid #FFFFFF;
+    margin-left: 166px;
+    margin-bottom: 72px;
+    margin-top: 72px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    width: 272px;
+    height: 58px;
+    margin-top: 106px;
+    margin-left: 164px;
+}
+
+.sec-main img {
+    width: 272px;
+    height: 58px;
+}
+
+.content .text{
+    font-size: 40px;
+    margin-top: 19.17px;    
+ }
+
+ .text {
+    font: normal normal 300 30px/47px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+    margin-top: 20px;
+    margin-left: 164px;
+    text-align: left;
+}
+
+
+.content {
+    width: 500px;
+    height: 100px;
+    text-align: left;
+    color: #3E3E3E;
+    margin-top: 0px;
+}
+
+
+.redfont {
+    font: normal normal 900 40px/53px Roboto,red;
+    top: 183px;
+    left: 1036px;
+    width: 137px;
+    height: 53px;
+    font-weight: 2000;
+    /* font-style: "bold"; */
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto , 'Open Sans', 'Helvetica Neue', sans-serif; */
+    color: #C8242F;
+    
+}
+
+
+.textl {
+    margin-top: 10%;
+    margin-left: 162px;
+}
+
+
+.textl .textu {
+    margin-bottom: 23px;
+    width: 260px;
+    height: 33px;
+    text-align: left;
+    /* font: normal normal normal 25px/33px Roboto; */
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+}
+
+
+input {
+    width: 429px;
+    height: 49px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+
+.textl .user {
+    margin-top: 23.45px;
+}
+
+
+.textl .pas{
+margin-top: 27px;
+}
+
+
+.login button {
+
+    width: 138px;
+    height: 45px;
+    display: inline-flexbox ;
+    /* UI Properties */
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    margin-left: 164px;
+    margin-top: 30.5px;
+    font-size: 18px;
+    color: #FFFFFF;
+    /* font: normal normal normal 18px/24px Roboto; */
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+}
+
+
+.login{
+    
+    display:flex;
+    border:0px;
+}
+
+.forget{
+    /* font: normal normal normal 15px/20px Roboto; */
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+    color: #ADADAD;
+    margin-top: 42.63px;
+    margin-left: 170.444px;
+    font-size: 15px;;
+}
+
+
+.register{
+    margin-top: 23.33px;
+    margin-left: 164px;
+    font-size: 15px;
+}
+
+
+.register .reg {
+    color: #ADADAD;
+    /* UI Properties */
+    /* font: normal normal normal 15px/20px Roboto; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.register .r {
+    margin-left: 3.52px;
+    color: #C8242F;
+}
+
+/*Dashboard CSS*/
+
+
+.head{
+    padding: 20px;
+    
+}
+
+.menubar{
+    width: 20px;
+    height: 20px;
+    max-width: 100%;
+    
+}
+
+.top1{
+    width: 142px;
+    height: 30px;
+    max-width: 100%;
+    margin-left : 10px ;
+}
+
+.dboard{
+width: 300px;
+height: 1279px;
+margin-left: 0px;
+max-width: 100%;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+
+
+.dashico{
+margin-left: 0px;
+/* /* margin-top: 10px ; */
+/* margin-top: 15px;  */
+margin-right: 10px;
+max-width: 100%;
+width: 20px;
+height: 20px;
+align-self: left;
+
+}
+li{
+    margin:30px;
+    max-width: 100%;
+}
+.list{
+    list-style: none;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+
+dashboard-active{
+    width: 78px;
+height: 21px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 16px/21px Roboto;
+letter-spacing: 0px;
+color: #C8242F;
+max-width: 100%;
+opacity: 1;
+}
+
+.textsidebar{
+    top: 115px;
+left: 75px;
+width: 78px;
+height: 21px;
+/* margin-bottom: 10px; */
+text-align: left;
+font: normal normal  16px/21px Roboto;
+letter-spacing: 0px;
+max-width: 100%;
+color: #000000;
+opacity: 1;
+}
+
+.row{
+      margin-left: 30px;
+}
+
+.searchico{
+    margin-left: 76.67px;
+    top: 32px;
+left: 291px;
+width: 16px;
+height: 16px;
+/* background: #000000 0% 0% no-repeat padding-box; */
+opacity: 1;
+}
+
+.notify{
+    width: 22px;
+    height: 21px;
+    margin-left:924.2px;
+    margin-right: 52.28px;
+}
+
+.profilep{
+    margin-right: 12px;
+    top: 18px;
+    left: 1368px;
+    width: 44px;
+    height: 44px;
+/* UI Properties */
+background: transparent url('img/Ellipse 19.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+
+
+}
+
+.col{
+    margin-left: 200px;
+    margin-top: 22.25px;
+}
+
+.just1{
+    margin-top: 71.29px;
+    margin-left: 77px;
+    width: 146px;
+    height: 39px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 30px/39px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+
+}
