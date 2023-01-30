@@ -1,15 +1,19 @@
 <!DOCTYPE html >
 <html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-        
-        <title>Login page</title>
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-        <link href="css/bootstrap.min.css"  rel="stylesheet" type="text/css">
-        <meta name="viewport" content="width=device-width" , initial-scal = 1 ,shrink-to-fit = no;>
-    </head>
-    <body>
-        <div class="head">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+    <title>DashBoard</title>
+    <link href="css\bootstrap.min.css" rel="stylesheet" text="text/css">
+    <link href="css\style.css" rel="stylesheet" text="text/css">
+    <script src="js\bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width" , initial-scal=1 ,shrink-to-fit=n o;>
+</head>
+
+<body>
+
+    <!-- <div class="head">
             <img src="C:\Project\HTML Training Assignment\images\menu-bar.svg" class="menubar" alt=""  srcset="">
             <img src="file:///C:/Project/HTML%20Training%20Assignment/images/logo.svg"  class="top1" alt="">
             <img src="C:\Project\HTML Training Assignment\images\search-icon.svg" class = "searchico"><a>  search</a>
@@ -18,28 +22,227 @@
             
             <h4 class="just1">Dashboard</h4>
            
-           
-            
-            <div class="container">
-                <!-- Content here -->
-              </div>
+        
+            </div> -->
+
+    <div class="logo1">
+        <img src="images\menu-bar.svg" alt="menu" id="menu">
+        <img src="images\header-logo.svg" alt="headerlogo" id="logo">
+        <img src="C:\Project\HTML Training Assignment\images\search-icon.svg" alt="search" id="search">
+        <input type="text" placeholder="Search" id="search1">
+        <img src="C:\Project\HTML Training Assignment\images\notification-icon.svg" alt="notify" id="notify">
+        <img src="C:\Project\HTML Training Assignment\images\profile.png" alt="profile" id="profile">
+        <label id="name">John Doe</label>
+        <img src="C:\Project\HTML Training Assignment\images\downward-arrow.svg" alt="arrow" id="arrow">
+    </div>
+
+    <div class="maincontent">
+        <div class="sidebar">
+            <div id="maindiv">
+                <img src="C:\Project\HTML Training Assignment\images\dashboard-active.svg" alt="dashboard" class="sidebar1">
+                <label class="sidebar1">Dashboard</label>
             </div>
-        
-        <div class="dboard">
-            <ul class="list">
-                <li class="nav-link dashboard-active"><a href="#" class="textsidebar"><img src="C:\Project\HTML Training Assignment\images\dashboard-active.svg" class="dashico"/>Dashboard</a></li>
-                <li class="nav-link"><a href="#" class="textsidebar"><img src="images/graph-default.svg" class="dashico"/>Analysis</a></li>
-                <li class="nav-link"><a href="#" class="textsidebar"><img src="images/inbox-default.svg" class="dashico" />Inbox</a></li>
-                <li class="nav-link"><a href="#" class="textsidebar"><img src="images/clock-default.svg" class="dashico" />History</a></li>
-                <li class="nav-link"><a href="#" class="textsidebar"><img src="images/user-default.svg" class="dashico" />Users</a></li>
-                <li class="nav-link"><a href="#" class="textsidebar"><img src="images/maintenance-default.svg" class="dashico" />Maintenance</a></li>
-                <li class="nav-link"><a href="#" class="textsidebar"><img src="images/setting-default.svg" class="dashico" />Setting</a></li>
-            </ul>  
-           
-        </div>      
-        
+
+            <div>
+                <img src="C:\Project\HTML Training Assignment\images\graph-default.svg" alt="dashboard" class="sidebar1">
+                <label class="sidebar1">Graph</label>
+            </div>
+            <div>
+                <img src="C:\Project\HTML Training Assignment\images\inbox-default.svg" alt="dashboard" class="sidebar1">
+                <label class="sidebar1">Inbox</label>
+            </div>
+            <div>
+                <img src="C:\Project\HTML Training Assignment\images\clock-default.svg" alt="dashboard" class="sidebar1">
+                <label class="sidebar1">Clock</label>
+            </div>
+            <div>
+                <img src="C:\Project\HTML Training Assignment\images\user-default.svg" alt="dashboard" class="sidebar1">
+                <label class="sidebar1">User</label>
+            </div>
+            <div>
+                <img src="C:\Project\HTML Training Assignment\images\maintenance-default.svg" alt="dashboard" class="sidebar1">
+                <label class="sidebar1">Maintenance</label>
+            </div>
+            <div>
+                <img src="C:\Project\HTML Training Assignment\images\setting-default.svg" alt="dashboard" class="sidebar1">
+                <label class="sidebar1">Setting</label>
+            </div>
+
         </div>
-        
-    </body>
-    
+    </div>
+    <div class="center">
+        <h1 class="dashboard">Dashboard</h1>
+        <div class="productdetails">
+            <div class="p1">
+                <img src="C:\Project\HTML Training Assignment\images\star.svg" alt="star" class="picon" />
+                <p class="iconheading">23,546<br>New Products</p>
+
+            </div>
+            <div class="p1">
+                <img src="C:\Project\HTML Training Assignment\images\new-product.svg" alt="star" class="picon" />
+                <p class="iconheading">23,546<br>Added Products</p>
+
+            </div>
+            <div class="p1">
+                <img src="C:\Project\HTML Training Assignment\images\total-product.svg" alt="star" class="picon" />
+                <p class="iconheading">23,546<br>Total Products</p>
+
+            </div>
+            <div class="p1">
+                <img src="C:\Project\HTML Training Assignment\images\dollar-filled.svg" alt="star" class="picon" />
+                <p class="iconheading">23,546<br>Today's Sale</p>
+
+            </div>
+            <div class="p1">
+                <img src="C:\Project\HTML Training Assignment\images\money-bag.svg" alt="star" class="picon" />
+                <p class="iconheading">23,546<br>Total Sale</p>
+
+            </div>
+        </div>
+
+        <div class="graphs">
+            <div class="graph">
+                <h1 class="sale">Sale</h1>
+                <h1 class="weekly">Weekly</h1>
+                <h1 class="monthly">Monthly</h1>
+                <h1 class="yearly">Yearly</h1>
+                <img src="C:\Project\HTML Training Assignment\images\data-graph.png" class="image" alt="graph">
+            </div>
+            <div class="pie">
+                <h1 class="slc">Sales By Country</h1>
+                <img src="C:\Project\HTML Training Assignment\images\pie-chart.svg" alt="pie" class="pieimg">
+                <div class="dot">
+                    <h3 class="red">&bull;</h3>
+                    <h3 class="usa">United States Of America</h3>
+                    <h3 class="orange">&bull;</h3>
+                    <h3 class="russia">Russia</h3>
+                    <h3 class="green">&bull;</h3>
+                    <h3 class="canada">Canada</h3>
+                    <h3 class="yellow">&bull;</h3>
+                    <h3 class="india">India</h3>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="invoice11">
+            <h1 class="invoice">Invoices</h1>
+            <p class="viewall">View All</p>
+        </div>
+
+        <table class="table table1">
+            <thead>
+                <tr>
+                    <th scope="col heading">INVOICE</th>
+                    <th scope="col heading">COMPANY NAME</th>
+                    <th scope="col heading">EMAIL</th>
+                    <th scope="col heading">DUE DATE</th>
+                    <th scope="col heading">STATUS</th>
+                    <th scope="col heading">AMOUNT</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">651535</th>
+                    <td>Public Adjusting Firm</td>
+                    <td>georgia.young@gmail.com</td>
+                    <td>24 May,2020</td>
+
+                    <td><label class="paid">Paid</label></td>
+                    <td>$47,800</td>
+
+
+                </tr>
+                <tr>
+                    <th scope="row">558612</th>
+                    <td>Other</td>
+                    <td>jessica.handon@gmail.com</td>
+                    <td>24 May,2020</td>
+                    <td><label class="paid">Paid</label></td>
+                    <td>$98,000</td>
+
+
+                </tr>
+                <tr>
+                    <th scope="row">558612</th>
+                    <td>Vendor</td>
+                    <td>alma.lawson@gmail.com</td>
+                    <td>8 sept,2020</td>
+                    <td><label class="paid">Paid</label></td>
+                    <td>$20,900</td>
+
+
+                </tr>
+                <tr>
+                    <th scope="row">558612</th>
+                    <td>Property Managment Company</td>
+                    <td>kenzi.lawson@gmail.com</td>
+                    <td>22 Oct,2020</td>
+                    <td><label class="paid">Paid</label></td>
+                    <td>$10,570</td>
+
+
+
+                </tr>
+                <tr>
+                    <th scope="row">651535</th>
+                    <td>Subcontractor Company</td>
+                    <td>jackson.graham@gmail.com</td>
+                    <td>1 Feb,2020</td>
+                    <td><label class="failed">Failed</label></td>
+                    <td>$10,200</td>
+
+
+
+                </tr>
+                <tr>
+                    <th scope="row">653518</th>
+                    <td>Mortgage Company</td>
+                    <td>felicia.reid@gmail.com</td>
+                    <td>22 Oct,2020</td>
+                    <td><label class="pending">Pending</label></td>
+                    <td>$12,600</td>
+
+
+                </tr>
+                <tr>
+                    <th scope="row">487441</th>
+                    <td>TPA</td>
+                    <td>dolores.chambers@gmail.com</td>
+                    <td>21 Sept,2020</td>
+                    <td><label class="paid">Paid</label></td>
+                    <td>$11,170</td>
+
+
+                </tr>
+                <tr>
+                    <th scope="row">267400</th>
+                    <td>Fire Department</td>
+                    <td>nevaeh.simmons@gmail.com</td>
+                    <td>17 Oct,2020</td>
+                    <td><label class="failed">Failed</label></td>
+                    <td>$28,000</td>
+
+
+                </tr>
+                <tr>
+                    <th scope="row">449003</th>
+                    <td>Insurance Carrier</td>
+                    <td>curtis.weaver@gmail.com</td>
+                    <td>21 Sept,2020</td>
+                    <td><label class="paid">Paid</label></td>
+                    <td>$10,000</td>
+
+
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+
 </html>
