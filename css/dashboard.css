@@ -1,0 +1,325 @@
+#search {
+    height: 22px;
+    width: 25px;
+    margin-left: 65px;
+}
+
+#profile {
+    height: 35px;
+    width: 35px;
+}
+
+#logo {
+    height: 40px;
+    width: 130px;
+    margin-left: 12px;
+}
+
+.logo1 {
+    height: 60px;
+    margin: 15px 14px 14px 14px;
+}
+
+#search1 {
+    width: 49px;
+    border-style: hidden;
+    margin-left: 2px;
+}
+
+#notify {
+    margin-left: 924px;
+}
+
+#profile {
+    margin-left: 52.28px;
+    align-self: right;
+}
+
+#name {
+    margin-left: 15px;
+    align-items: right;
+}
+
+#arrow {
+    margin-left: 0.5%;
+}
+
+.sidebar1 {
+
+    width: 25px;
+    height: 25px;
+    margin: 10px 10px 10px 10px;
+}
+
+.maindiv:hover{
+    background-color: #FFF3F4;
+}
+
+.sidebar {
+    position: relative;
+    left: 25px;
+    float: left;
+}
+
+.maindiv {
+    /* background-color:white; */
+    width: 200px;
+    color: rgb(0, 0, 0);
+}
+
+.maincontent {
+    /* float: left;
+    background-color: whitesmoke;
+    width: 1226px;
+    height: 1700px;
+    margin-left: 246px;
+    margin-top: -350px; */
+    
+    display: flex;
+    float: left;
+}
+
+.dashboard {
+    margin-left: 24px;
+    font-size: 25px;
+    margin-top: 19px;
+    background-color: transparent;
+}
+
+.newproduct {
+    flex-direction: column;
+    margin-top: 65px;
+    margin-left: -80px;
+}
+
+.products {
+    height: 28px;
+}
+
+.center {
+    background-color: whitesmoke;
+    margin-left: 250px;
+    width: 1289px;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productdetails {
+    
+    display: flex;
+    /* float:left; */
+}
+
+.picon {
+    margin-right: 19.33px;
+    height: 33px;
+    width: 33px;
+    margin: auto auto;
+}
+
+.p1 {
+    background-color: white;
+    width: 219px;
+    height: 116px;
+    margin-left: 23px;
+    margin-top: 23px;
+    display: flex;
+}
+
+.iconheading {
+    font-size: 20px;
+    margin: auto auto;
+}
+
+
+
+.graphs {
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+.graph {
+    margin-top: 30px;
+    background-color: white;
+    margin-top: 33px;
+    margin-left: 26px;
+    width: 750px;
+    height: 352px;
+    display: flex;
+}
+
+.sale {
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.weekly {
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+    left: 510px;
+    color: #ADADAD;
+    opacity: 1px;
+}
+
+.monthly {
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+    left: 530px;
+    color: #ADADAD;
+    opacity: 1px;
+}
+
+.yearly {
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+    left: 550px;
+    color: #C8242F;
+    text-decoration: underline solid #C8242F
+}
+
+.image {
+    height: 275px;
+    width: 730px;
+    margin-left: -140px;
+    margin-top: 75px;
+    margin-right: 200px;
+}
+
+.pie {
+    background-color: white;
+    /* margin-left: 830px; */
+    width: 385px;
+    height: 354px;
+    margin-top: 32px;
+    margin-left: 50px;
+}
+
+.slc {
+    font-size: 23px;
+    margin-left: 18px;
+    margin-top: 15px;
+    position: relative;
+    top: 12px;
+}
+
+.pieimg {
+    margin-top: 12px;
+    margin-left: 72px;
+}
+
+.red {
+    font-size: 45px;
+    margin-left: 43px;
+    color: #C8242F;
+    margin-top: -25px;
+}
+
+.usa {
+    font-size: 12px;
+    margin-left: 62px;
+    margin-top: -37px;
+}
+
+.orange {
+    font-size: 45px;
+    margin-left: 43px;
+    color: #F16C20;
+    margin-top: -20px;
+}
+
+.russia {
+    font-size: 12px;
+    margin-top: -38px;
+    margin-left: 62px;
+}
+
+.green {
+    font-size: 45px;
+    margin-left: 234px;
+    color: #A2B86C;
+    margin-top: -72px;
+}
+
+.canada {
+    font-size: 12px;
+    margin-top: -38px;
+    margin-left: 254px;
+}
+
+.yellow {
+    font-size: 45px;
+    margin-top: -20px;
+    margin-left: 235px;
+    color: #EBC844;
+}
+
+.india {
+    font-size: 12px;
+    margin-top: -38px;
+    margin-left: 256px;
+}
+
+.footer {
+    background-color: white;
+    margin-top: 31px;
+    margin-left: 27px;
+    width: 1157px;
+    height: 558px;
+}
+
+.invoice {
+    font-size: 30px;
+    margin-bottom: 37px;
+    margin-left: 23px;
+    margin-top: 23px;
+}
+
+.invoice11 {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 28px;
+    margin-left: 28px;
+    width: 91.7%;
+}
+
+.viewall {
+    margin-left: auto;
+    color: red;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+
+/* 
+.table .table1{
+margin-left: 50px;
+} */
+
+.table1 {
+    width: 91.7%;
+    background-color: white;
+    margin-left: 28PX;
+}
+
+.paid {
+    color: #3CDD5F;
+    background-color: #EBFFEF;
+}
+
+.pending {
+    color: #BABABA;
+    background-color: #F8F8F8;
+}
+
+.failed {
+    color: #FF4545;
+    background-color: #FFF5F5;
+}

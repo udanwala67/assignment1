@@ -3,12 +3,80 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,shrink-to-fit=no">
+
 
     <title>DashBoard</title>
     <link href="css\bootstrap.min.css" rel="stylesheet" text="text/css">
-    <link href="css\style.css" rel="stylesheet" text="text/css">
+    <link href="css\dashboard.css" rel="stylesheet" text="text/css">
     <script src="js\bootstrap.bundle.min.js"></script>
-    <meta name="viewport" content="width=device-width" , initial-scal=1 ,shrink-to-fit=n o;>
+    <meta name="viewport" content="width=device-width", initial-scal=1 ,shrink-to-fit=no>
+
+    <script type="text/javascript">
+
+        function SetNewImage(){
+            document.getElementById("sahil").src = "images/dashboard-active.svg";
+           
+                
+        }
+
+        function SetOldImage() {
+            document.getElementById("sahil").src =  "images/dashboard-default.svg";
+            
+        }
+
+        function SetNewImage1() {
+            document.getElementById("sahil1").src = "images/graph-active.svg";  
+        }
+
+        function SetOldImage1() {
+            document.getElementById("sahil1").src = "images/graph-default.svg";  
+        }
+
+        function SetNewImage2() {
+            document.getElementById("sahil2").src = "images/inbox-active.svg";  
+        }
+
+        function SetOldImage2() {
+            document.getElementById("sahil2").src = "images/inbox-default.svg";  
+        }
+
+        function SetNewImage3() {
+            document.getElementById("sahil3").src = "images/clock-active.svg";  
+        }
+
+        function SetOldImage3() {
+            document.getElementById("sahil3").src = "images/clock-default.svg";  
+        }
+
+        function SetNewImage4() {
+            document.getElementById("sahil4").src = "images/user-active.svg";  
+        }
+
+        function SetOldImage4() {
+            document.getElementById("sahil4").src = "images/user-default.svg";  
+        }
+        
+        function SetNewImage5() {
+            document.getElementById("sahil5").src = "images/maintenance-active.svg";  
+        }
+
+        function SetOldImage5() {
+            document.getElementById("sahil5").src = "images/maintenance-default.svg";  
+        }
+        
+        function SetNewImage6() {
+            document.getElementById("sahil6").src = "images/setting-active.svg";  
+        }
+
+        function SetOldImage6() {
+            document.getElementById("sahil6").src = "images/setting-default.svg";  
+        }
+        
+
+
+    </script>
+
 </head>
 
 <body>
@@ -38,33 +106,40 @@
 
     <div class="maincontent">
         <div class="sidebar">
-            <div id="maindiv">
-                <img src="C:\Project\HTML Training Assignment\images\dashboard-active.svg" alt="dashboard" class="sidebar1">
-                <label class="sidebar1">Dashboard</label>
+            <div class="maindiv" onmouseover="SetNewImage()" onmouseout="SetOldImage()">
+                <img id="sahil" 
+                src="C:\Project\HTML Training Assignment\images\dashboard-default.svg" alt="dashboard" class="sidebar1">
+                <label href="#" class="sidebar1">Dashboard</label>
             </div>
 
-            <div>
-                <img src="C:\Project\HTML Training Assignment\images\graph-default.svg" alt="dashboard" class="sidebar1">
+            <div class="maindiv" onmouseover="SetNewImage1()" onmouseout="SetOldImage1()">
+                <img id="sahil1"
+                src="C:\Project\HTML Training Assignment\images\graph-default.svg" alt="dashboard" class="sidebar1">
                 <label class="sidebar1">Graph</label>
             </div>
-            <div>
-                <img src="C:\Project\HTML Training Assignment\images\inbox-default.svg" alt="dashboard" class="sidebar1">
+            <div class="maindiv" onmouseover="SetNewImage2()" onmouseout="SetOldImage2()">
+                <img id="sahil2"
+                 src="C:\Project\HTML Training Assignment\images\inbox-default.svg" alt="dashboard" class="sidebar1">
                 <label class="sidebar1">Inbox</label>
             </div>
-            <div>
-                <img src="C:\Project\HTML Training Assignment\images\clock-default.svg" alt="dashboard" class="sidebar1">
+            <div class="maindiv" onmouseover="SetNewImage3()" onmouseout="SetOldImage3()">
+                <img id="sahil3"
+                 src="C:\Project\HTML Training Assignment\images\clock-default.svg" alt="dashboard" class="sidebar1">
                 <label class="sidebar1">Clock</label>
             </div>
-            <div>
-                <img src="C:\Project\HTML Training Assignment\images\user-default.svg" alt="dashboard" class="sidebar1">
+            <div class="maindiv" onmouseover="SetNewImage4()" onmouseout="SetOldImage4()">
+                <img id="sahil4"
+                 src="C:\Project\HTML Training Assignment\images\user-default.svg" alt="dashboard" class="sidebar1">
                 <label class="sidebar1">User</label>
             </div>
-            <div>
-                <img src="C:\Project\HTML Training Assignment\images\maintenance-default.svg" alt="dashboard" class="sidebar1">
+            <div class="maindiv" onmouseover="SetNewImage5()" onmouseout="SetOldImage5()">
+                <img id ="sahil5"
+                src="C:\Project\HTML Training Assignment\images\maintenance-default.svg" alt="dashboard" class="sidebar1">
                 <label class="sidebar1">Maintenance</label>
             </div>
-            <div>
-                <img src="C:\Project\HTML Training Assignment\images\setting-default.svg" alt="dashboard" class="sidebar1">
+            <div class="maindiv" onmouseover="SetNewImage6()" onmouseout="SetOldImage6()">
+                <img id="sahil6"
+                src="C:\Project\HTML Training Assignment\images\setting-default.svg" alt="dashboard" class="sidebar1">
                 <label class="sidebar1">Setting</label>
             </div>
 
