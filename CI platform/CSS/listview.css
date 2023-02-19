@@ -1,0 +1,14 @@
+.card{
+    margin-left: 0% !important;
+}
+
+.button{
+    padding-top: -3%;
+    align-items: center;
+    margin-top: -3%;
+    align-self: middle;
+}
+
+/* .explore{
+    align-items: flex-end;
+} */
